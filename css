@@ -1,0 +1,63 @@
+body {
+  background-color: #333;
+  color: #DDD;
+}
+
+#timeChange {
+  width: 300px;
+}
+
+#timeChange > div {
+  font-size: 2rem;
+  width: 125px;
+  margin-top: 20px;
+  display: inline-block;
+  border-top: solid #DDD 5px;
+}
+
+#minus {
+  background-color: #d9534f;
+}
+
+#plus {
+  background-color: #5cb85c;
+  float: right;
+}
+
+#timeChange > div:active {
+  border-top: solid #DDD 2px;
+  margin-bottom: 3px;
+}
+
+#timeChange {
+  margin: auto;
+}
+
+#timer {
+  width: 300px;
+  height: 300px;
+  border: solid #DDD 3px;
+  margin: 20px auto;
+}
+
+#timer:active {
+  background-color: #222;
+}
+
+#count {
+  margin-top: 30%;
+  font-size: 4em;
+}
+
+#reset {
+  font-size: 2em;
+  background-color: #428cba;
+  margin: 3% auto;
+  width: 300px;
+  border-top: solid #DDD 5px;
+}
+
+#reset:active {
+  margin-bottom: 3px;
+  border-top: solid #BBB 2px;
+}
